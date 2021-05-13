@@ -164,7 +164,7 @@ func printResults(respBody []byte) {
 	fmt.Println("- Correct Answers: ", result["correctAnswers"])
 	fmt.Println("- Total users who answered: ", result["answeredUsers"])
 	fmt.Print("- You were better than ", result["comparingToOthers"])
-	fmt.Print("% of all quizers \n")
+	fmt.Print("% of all quizzers \n")
 	fmt.Println("---------------------------------------------")
 	fmt.Print("\n\n")
 }
